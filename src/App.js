@@ -1,13 +1,17 @@
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css"
 import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
+import Shop from './pages/shop/shop';
+import Cart from './pages/cart/cart';
+import Nav from './components/nav';
 function App() {
   return (
     <div className="App">
       <Router>
+        <Nav/>
         <Routes>
-          <Route path='/'/>
-          <Route path='/crt'/>
+          <Route path='/' element={<Shop/>}/>
+          <Route path='/cart' element={<Cart/>}/>
 
         </Routes>
       </Router>
