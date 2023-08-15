@@ -1,2 +1,3 @@
 # add-cart
- This is a react project
+
+This is a React project with useState and useContext
