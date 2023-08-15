@@ -11,25 +11,25 @@ export const PRODUCTS=[
         productImage:mobile
     },
     {
-        id:1,
+        id:2,
         productName:"laptop",
         price:2000,
         productImage:laptop
     },
     {
-        id:1,
+        id:3,
         productName:"watch",
         price:800,
         productImage:watch
     },
     {
-        id:1,
+        id:4,
         productName:"tv",
         price:1500,
         productImage:tv
     },
     {
-        id:1,
+        id:5,
         productName:"camera",
         price:1000,
         productImage:camera

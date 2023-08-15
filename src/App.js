@@ -4,9 +4,11 @@ import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
 import Shop from './pages/shop/shop';
 import Cart from './pages/cart/cart';
 import Nav from './components/nav';
+import { ShopContwxtProvider } from './context/shopContext';
 function App() {
   return (
     <div className="App">
+      <ShopContwxtProvider>
       <Router>
         <Nav/>
         <Routes>
@@ -15,6 +17,7 @@ function App() {
 
         </Routes>
       </Router>
+      </ShopContwxtProvider>
     </div>
   );
 }
